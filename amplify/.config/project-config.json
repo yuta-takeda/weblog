@@ -1,0 +1,17 @@
+{
+  "projectName": "weblog",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "./",
+      "DistributionDir": "build",
+      "BuildCommand": "yarn run build",
+      "StartCommand": "yarn run start"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
